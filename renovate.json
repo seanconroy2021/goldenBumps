@@ -2,7 +2,7 @@
 "packageRules": [
 {
 "registryUrls": ["https://ghcr.io"],
-"packageNames": ["seanconroy2021/golden-container"],
+"packageNames": ["seanconroy2021/golden-container:snapshot"],
 "allowedVersions": "snapshot"
 }
 ]
