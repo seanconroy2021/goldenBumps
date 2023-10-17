@@ -1,9 +1,10 @@
 {
   "packageRules": [
     {
-      "datasource": "docker",
-      "depNameList": ["seanconroy2021/golden-container"],
+      "matchDatasources": ["docker"],
+      "matchDepNames": ["seanconroy2021/golden-container"],
       "versioning": "docker",
+      "allowedVersions": "snapshot"
     }
   ]
 }
