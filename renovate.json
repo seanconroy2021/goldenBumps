@@ -1,10 +1,9 @@
 {
-  "packageRules": [
-    {
-      "matchDatasources": ["docker"],
-      "matchDepNames": ["seanconroy2021/golden-container"],
-      "versioning": "docker",
-      "allowedVersions": "snapshot"
-    }
-  ]
+"packageRules": [
+{
+"registryUrls": ["https://ghcr.io"],
+"packageNames": ["seanconroy2021/golden-container"],
+"allowedVersions": "snapshot"
+}
+]
 }
