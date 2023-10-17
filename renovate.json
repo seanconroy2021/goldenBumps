@@ -4,7 +4,6 @@
       "datasource": "docker",
       "depNameList": ["seanconroy2021/golden-container"],
       "versioning": "docker",
-      "allowedVersions": "snapshot"
     }
   ]
 }
