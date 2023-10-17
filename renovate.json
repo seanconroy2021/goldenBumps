@@ -1,9 +1,9 @@
 {
-"packageRules": [
-{
-"registryUrls": ["https://ghcr.io"],
-"packageNames": ["seanconroy2021/golden-container:snapshot"],
-"allowedVersions": "snapshot"
-}
-]
+  "packageRules": [
+    {
+      "registryUrls": ["https://ghcr.io"],
+      "packageNames": ["seanconroy2021/golden-container"],
+      "allowedVersions": "snapshot"
+    }
+  ]
 }
