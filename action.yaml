@@ -1,0 +1,9 @@
+name: 'Golden-Image-Validate'
+description: 'Validate Golden Image'
+runs:
+  using: composite
+  steps:
+    - name: Run EC Validate
+      uses: docker://ghcr.io/seanconroy2021/golden-container@sha256:c0d9422388bfab1c978f22d3b7712ee3f6d2e77229897555208898da046d2124 #snapshot
+      id: ec_validate
+      
