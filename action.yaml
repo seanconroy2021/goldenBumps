@@ -4,6 +4,6 @@ runs:
   using: composite
   steps:
     - name: Run EC Validate
-      uses: docker://ghcr.io/seanconroy2021/golden-container:snapshot@sha256:7bb62e2b8d1fd6ec4108407542979da1b263fcd45458f9272a48452df8da69c4 # snapshot
+      uses: docker://ghcr.io/seanconroy2021/golden-container:snapshot@sha256:b43b03a1a3d148af51a2a1955b66e6121cc086a06ae785efbc9ae42529cc7db6
       id: ec_validate
       
